@@ -7,7 +7,7 @@ Ventilatie (en later meer) bediend met een ESP32-controller via een eigen webpag
 | **Toestel** | Ventilatie-unit Begetube 350 R (0–10 V-sturing) |
 | **Controller** | ESP32 Dev Module (CP2102, micro-USB) op het Zarlar-shield |
 | **Omzetter** | AnaBoX v2.0 (PWM → 0–10 V), zonder R3 |
-| **Sketch** | `ESP32_PWM_Test` v1.5 (`ESP32_PWM_Test.ino` + `pagina.h`, samen in de map `ESP32_PWM_Test`) |
+| **Sketch** | `ESP32_PWM_Test` v1.5: map `ESP32_PWM_Test/` met `ESP32_PWM_Test.ino` + `pagina.h` (rechtstreeks te openen in de Arduino IDE) |
 | **Status** | Stap 1: getest en werkend op de eigen Begetube (kelder, 1/11/2026); de unit van Maarten volgt |
 | **Repo** | `FidelDworp/HVAC_WONING` |
 | **Laatst bijgewerkt** | 3 november 2026 |

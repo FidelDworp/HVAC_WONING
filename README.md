@@ -8,6 +8,7 @@ Ventilatie (en later meer) bediend met een ESP32-controller via een eigen webpag
 | **Controller** | ESP32 Dev Module (CP2102, micro-USB) op het Zarlar-shield |
 | **Omzetter** | AnaBoX v2.0 (PWM → 0–10 V), zonder R3 |
 | **Sketch** | `ESP32_PWM_Test` v1.5: map `ESP32_PWM_Test/` met `ESP32_PWM_Test.ino` + `pagina.h` (rechtstreeks te openen in de Arduino IDE) |
+| **Klaar om te uploaden** | `bin/ESP32_PWM_Test_v1.5.ino.bin` (board ESP32 Dev Module, standaard partities): klaar om te uploaden via `/update`, gecompileerd door Claude (ESP32-core 3.3.12, nieuwste bibliotheken). Alleen de laatste versie |
 | **Status** | Stap 1: getest en werkend op de eigen Begetube (kelder, 1/11/2026); de unit van Maarten volgt |
 | **Repo** | `FidelDworp/HVAC_WONING` |
 | **Laatst bijgewerkt** | 3 november 2026 |
